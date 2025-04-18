@@ -7,17 +7,17 @@ import { useRef } from "react";
 const items = [
   {
     id: 1,
-    color: "from-red-300 to-blue-300",
-    title: "React E-Commerce   ",
-    desc: "  e-commerce front-end application using TypeScript, React, Redux Toolkit, and Tailwind CSS. The app fetches data from a JSON server and incorporates animated transitions with Tailwind CSS to enhance user engagement.   ",
+    color: "from-blue-300 to-indigo-300",
+    title: "React E-Commerce",
+    desc: "E-commerce front-end application using TypeScript, React, Redux Toolkit, and Tailwind CSS. The app fetches data from a JSON server and incorporates animated transitions with Tailwind CSS to enhance user engagement.",
     img: "/babys.png",
     link: "https://www.linkedin.com/feed/update/urn:li:activity:7285669896338702336/",
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
-    title: "React Admin Dashboard App ",
-    desc: "React Admin Dashboard App This project showcases my expertise in front-end development and user experience design. Technologies Used: React.js, Context API, TailwindCss . Syncfusion React",
+    color: "from-indigo-300 to-violet-300",
+    title: "React Admin Dashboard App",
+    desc: "This project showcases my expertise in front-end development and user experience design. Technologies Used: React.js, Context API, TailwindCss, Syncfusion React.",
     img: "/dash.png",
     link: "https://ceodashboard.netlify.app/",
   },
@@ -25,19 +25,37 @@ const items = [
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "Next.js App Landing Page",
-    desc: " Building a Feature-Rich Travel App! Travel app with Next.js 14 and Tailwind CSS that prioritizes a sleek UI, responsive design, and mobile-first best practices.",
+    desc: "Travel app with Next.js 14 and Tailwind CSS that prioritizes a sleek UI, responsive design, and mobile-first best practices.",
     img: "/travel.png",
     link: "https://ceotraveler.netlify.app/",
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
+    color: "from-purple-300 to-pink-300",
     title: "Gym App",
-    desc: " The app leverages two distinct APIs—one for exercise data and another for video tutorials",
+    desc: "The app leverages two distinct APIs—one for exercise data and another for video tutorials.",
     img: "/gym.png",
-    link: "https://lama.dev",
+    link: "https://kuntta-gym.netlify.app",
+  },
+  {
+    id: 5,
+    color: "from-pink-300 to-rose-300",
+    title: "y(z)oom App",
+    desc: "Yoom-like video conferencing app built with tools like Next.js 14, Stream, Tailwind CSS.",
+    img: "/zoom.png",
+    link: "https://zoom-roan-ten.vercel.app",
+  },
+  {
+    id: 6,
+    color: "from-rose-300 to-red-300",
+    title: "Appoitment App",
+    desc: "Appwith a Next.js frontend, Tailwind CSS, Appwrite backend, and SMS ,register, book appointments ,SMS reminders, cancel pending appointments, and manage  through dashboard.",
+    img: "/cnop.png",
+    link: "https://www.linkedin.com/feed/update/urn:li:activity:7317944003272863744/",
   },
 ];
+
+
 
 const PortfolioPage = () => {
   const ref = useRef();

@@ -15,7 +15,7 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/hero1.png" alt="" fill className="object-contain" />
+          <Image src="/hero2.png" alt="" fill className="object-contain" />
         </div>
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center">
           {/* TITLE */}
@@ -24,7 +24,7 @@ const Homepage = () => {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Welcome to my digital canvas . With a keen eye for aesthetics and a
+            Welcome to my Portfolio . With a keen eye for aesthetics and a
             mastery of code, my portfolio showcases a diverse collection of
             projects that reflect my commitment to excellence.
           </p>
@@ -35,8 +35,7 @@ const Homepage = () => {
               View My Work
             </button></Link>
             <Link href="/contact">
-              {" "}
-              <button className="p-4 rounded-lg ring-1 ring-black">
+               <button className="p-4 rounded-lg ring-1 ring-black">
                 Contact Me
               </button>
             </Link>
